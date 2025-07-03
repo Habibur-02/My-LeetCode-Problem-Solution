@@ -7,7 +7,7 @@ int main() {
     int p=needle.size();
     int q=haystack.size();
     // for(int i=0;i<len())
-    cout<<p<<" "<<q;
+    // cout<<p<<" "<<q;
     bool ok=false;
     int x=-1;
     for (int i=0;i<q;i++)
@@ -37,7 +37,7 @@ int main() {
     }
 
 
-    cout<<"Bro Found"<<x<<'\n';
+    
 
-    return 0;
+    return x;
 }
