@@ -16,8 +16,12 @@ int main() {
         v.push_back(x);
     }
     sort(v.begin(),v.end());
-    for(int i=0;i<v.size();i++)
-    cout<<v[i]<<" ";
+    auto it=find(v.begin(),v.end(),9);
+    // cout<<it;
+    // for(int i=0;i<v.size();i++)
+    // cout<<v[i]<<" ";
+    cout<<distance(v.begin(),it);
+    
     return 0;
 }
 
