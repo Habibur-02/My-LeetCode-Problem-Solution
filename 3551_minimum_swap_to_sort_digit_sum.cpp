@@ -1,7 +1,10 @@
 #include <bits/stdc++.h>
 #define ll long long 
 #define nl '\n'
+#define yes cout<<"YES"
+
 using namespace std;
+
 
 class Solution {
 public:
