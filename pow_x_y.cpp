@@ -7,7 +7,7 @@ public:
 private:
     double binaryExp(double x, long n) {
         if (n == 0) {
-            return 1;
+            return 1; //n=0
         }
        
         if (n < 0) {
