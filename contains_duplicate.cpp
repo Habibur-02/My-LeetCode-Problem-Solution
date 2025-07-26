@@ -62,6 +62,12 @@ for(auto &l:m)
     int ll=p.second.size();
     if(ll==1) {diff=1;}
     else {diff=-p.second[0]+p.second[ll-1];
+        int minm=INT_MAX;
+        for(int i=1;i<ll;i++)
+        {
+            minm=min(p.second[i]-p.second[i-1],minm);
+        }
+        diff=min(diff,minm);
     if(diff<=k){ok=true; 
     }
     if(ok) break;}
