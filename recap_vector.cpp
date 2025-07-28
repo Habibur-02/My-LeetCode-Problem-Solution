@@ -4,7 +4,6 @@ using namespace std;
 
 int main() {
 
-    // Creating an empty vector
     vector<int>v;
 
     // int n;
