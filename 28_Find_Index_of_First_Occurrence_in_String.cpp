@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    string haystack = "aadbutsad";
+    string haystack = "aadbutsadhhhh";
     string needle = "sad";
     int p=needle.size();
     int q=haystack.size();
