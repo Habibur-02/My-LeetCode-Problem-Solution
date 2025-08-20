@@ -1,9 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define ll long long
 int main()
 {
 
-    string s="AAAAAAAAAAAAA";
+    string s="AAAAAAAAAAAAAAAA";
     
 
     map<string,int>m;
