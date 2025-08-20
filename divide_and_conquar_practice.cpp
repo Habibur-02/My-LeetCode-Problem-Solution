@@ -1,26 +1,24 @@
 #include <bits/stdc++.h>
 using namespace std;
-void divideConquar(string s,int k)
+void divideConquar(string s,int k, int i=1)
 {
 if (s.size() <= 1) {
         if (!s.empty()) {
-            cout << "String Information: " << s << '\n';
+            cout << "String Information: " << s <<" Iteration "<<i<< '\n';
         }
         return;
     }
 
-    cout << "String Information: " << s << '\n';
-int mid=s.size()/2;
-
-
+    cout << "String Information: " << s << " Iteration "<<i<< '\n';
+    int mid=s.size()/2;
 
 
 // cout<<"String Information"<<" "<<s<<'\n';
 string a=s.substr(0, mid);
 string b=s.substr(mid);
 
-divideConquar(a, k);
-divideConquar(b, k);
+divideConquar(a, k,i+1);
+divideConquar(b, k,i+1);
 
 
 
