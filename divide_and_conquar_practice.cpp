@@ -9,7 +9,7 @@ if (s.size() <= 1) {
         return;
     }
 
-    cout << "String Information: " << s << " Iteration "<<i<< '\n';
+ cout << "String Information: " << s << " Iteration "<<i<< '\n';
     int mid=s.size()/2;
 
 
