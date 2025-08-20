@@ -1,5 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
+int DivideAndConquar(string s, int start, int end, int k)
+{
+    
+}
 int main()
 {
  string s="aaabb";

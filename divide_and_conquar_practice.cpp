@@ -13,9 +13,8 @@ if (s.size() <= 1) {
     int mid=s.size()/2;
 
 
-// cout<<"String Information"<<" "<<s<<'\n';
 string a=s.substr(0, mid);
-string b=s.substr(mid);
+string b=s.substr(mid); 
 
 divideConquar(a, k,i+1);
 divideConquar(b, k,i+1);
