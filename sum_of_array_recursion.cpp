@@ -11,13 +11,15 @@ int divide(vector<int> & v, int start, int end, int k)
     }
     int mid=start + end;
     mid/=2;
-    return (divide(v,start, mid, k) + divide(v, mid+1,end, k));
+    return (divide(v,start, mid, k) * divide(v, mid+1,end, k));
     // return false;
 }
 int main()
 {
 
-    vector<int>v={10,1,9,2,8,3,7,4,6,5};
+    // vector<int>v={10,1,9,2,8,3,7,4,6,5};
+        vector<int>v={1,2,3,4,5};
+
     int k=5;
     int n=v.size();
     cout<<divide(v,0,n-1, k);
