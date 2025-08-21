@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 int divide(int arr[], int start, int end, int i)
 {
 
