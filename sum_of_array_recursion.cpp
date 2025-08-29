@@ -17,7 +17,7 @@ int divide(vector<int> & v, int start, int end, int k)
 int main()
 {
 
-    // vector<int>v={10,1,9,2,8,3,7,4,6,5};
+    // vector<int>v={10,1,9,2,8,3,700,4,6,5};
         vector<int>v={1,2,3,4,5};
 
     int k=5;
