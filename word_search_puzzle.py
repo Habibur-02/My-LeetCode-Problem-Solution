@@ -1,20 +1,8 @@
 import random
 
 def create_crossword(words):
-    """
-    Creates a 10x10 word search puzzle, weaving the given words into the grid.
     
-    Words are placed in random directions (including diagonals). Any remaining
-    spaces are filled with random letters to complete the puzzle.
-    
-    Args:
-        words (list): A list of strings (words) to hide in the grid.
-        
-    Returns:
-        list: A 10x10 grid (list of lists) representing the puzzle.
-    """
     size = 10
-    # Start with an empty 10x10 grid
     grid = [['' for _ in range(size)] for _ in range(size)]
     
     directions = [
