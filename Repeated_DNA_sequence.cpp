@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 
-    string s="AAAAAAAAAAAAAAAAAAA";
+    string s="AAAAAAAAAAAA";
     
 
     map<string,int>m;
