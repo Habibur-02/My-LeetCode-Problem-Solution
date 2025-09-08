@@ -9,7 +9,7 @@ public:
                 ++j;
             }
             if (nums[i] - nums[j] == 1) {
-              maxLength = max(maxLength, i - j + 1);
+              maxLength = max(maxLength, i - j + 1); #confused
             }
         }
         return maxLength;
